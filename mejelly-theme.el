@@ -9,35 +9,23 @@
 (deftheme mejelly "The mejelly color theme")
 
 (let ((class '((class color) (min-colors 89)))
-      (mejelly-fg "#e8e8d4")
-      (mejelly-bg "#151515")
+      (mejelly-fg "#e8e8d4") (mejelly-bg "#181818")
 
       (mejelly-orange-0 "#fdb86b")
 
-      (mejelly-yellow-0 "#f9cf80")
-      (mejelly-yellow-1 "#ffff00")
+      (mejelly-yellow-0 "#f9cf80") (mejelly-yellow-1 "#ffff00")
 
-      (mejelly-blue-0 "#467898")
-      (mejelly-blue-1 "#7798d4")
+      (mejelly-blue-0 "#467898") (mejelly-blue-1 "#7798d4")
 
-      (mejelly-green-0 "#556536")
-      (mejelly-green-1 "#99ac6d")
+      (mejelly-green-0 "#556536") (mejelly-green-1 "#99ac6d")
 
-      (mejelly-grey-0 "#888888")
-      (mejelly-grey-1 "#7f7f7f")
-      (mejelly-grey-2 "#1c1c1c")
-      (mejelly-grey-3 "#363636")
+      (mejelly-grey-0 "#888888") (mejelly-grey-1 "#7f7f7f") (mejelly-grey-2 "#1e1e1e") (mejelly-grey-3 "#363636")
 
-      (mejelly-purple-0 "#c6b8fc")
-      (mejelly-purple-1 "#c74e90")
-      (mejelly-purple-2 "#cd00cd")
-      (mejelly-purple-3 "#540063")
+      (mejelly-purple-0 "#c6b8fc") (mejelly-purple-1 "#c74e90") (mejelly-purple-2 "#cd00cd") (mejelly-purple-3 "#540063") 
       (mejelly-purple-4 "#a40073")
 
-      (mejelly-red-0 "#cd6a50")
-      (mejelly-red-1 "#dd0093")
-      (mejelly-red-2 "#de5577")
-      (mejelly-red-3 "#ff73fd"))
+      (mejelly-red-0 "#cd6a50") (mejelly-red-1 "#dd0093") (mejelly-red-2 "#de5577") (mejelly-red-3 "#ff73fd")
+      )
 
       (custom-theme-set-faces
        'mejelly
