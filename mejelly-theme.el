@@ -93,7 +93,7 @@
        `(ido-subdir ((,class (:foreground ,mejelly-fg))))
        `(ido-virtual ((,class (:foreground ,mejelly-purple-0))))
        `(lazy-highlight ((,class (:foreground ,mejelly-red-1 :background nil))))
-       `(linum ((,class (:foreground ,mejelly-grey-0 :background ,mejelly-grey-2))))
+       `(linum ((,class (:inherit nil :slant normal :foreground ,mejelly-grey-0 :background ,mejelly-grey-2))))
        `(magit-branch ((,class (:foreground ,mejelly-red-0 :background ,mejelly-bg))))
        `(magit-diff-add ((,class (:foreground ,mejelly-green-0 :background ,mejelly-bg))))
        `(magit-diff-del ((,class (:foreground ,mejelly-red-0 :background ,mejelly-bg))))
