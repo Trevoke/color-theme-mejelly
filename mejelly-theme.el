@@ -11,7 +11,7 @@
 (let (
       (class '((class color) (min-colors 89)))
       (mejelly-fg "#e8e8d3")
-      (mejelly-bg "#151515")
+      (mejelly-bg "#212121")
 
       (mejelly-orange-0 "#fdb86b")
 
@@ -29,7 +29,7 @@
 
       (mejelly-grey-0 "#adadad")
       (mejelly-grey-1 "#7f7f7f")
-      (mejelly-grey-2 "#1c1c1c")
+      (mejelly-grey-2 "#2c2c2c")
       (mejelly-grey-3 "#3b3b3b")
 
       (mejelly-purple-0 "#c6b8fc")
