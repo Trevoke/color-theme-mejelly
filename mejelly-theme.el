@@ -24,7 +24,7 @@
       (mejelly-blue-2 "#91bfdb")
       (mejelly-blue-3 "#7d93b6")
 
-      (mejelly-green-0 "#556536")
+      (mejelly-green-0 "#64783a")
       (mejelly-green-1 "#99ad6a")
 
       (mejelly-grey-0 "#adadad")
@@ -46,11 +46,12 @@
   (custom-theme-set-faces
    'mejelly
    `(default                         ((,class (:foreground ,mejelly-fg
-                                                           :background ,mejelly-bg))))
+                                               :background ,mejelly-bg))))
 
    `(font-lock-builtin-face          ((,class (:foreground ,mejelly-blue-0))))
    `(font-lock-comment-face          ((,class (:slant italic
-                                                      :foreground ,mejelly-grey-0))))
+                                               :foreground ,mejelly-grey-0))))
+
    `(font-lock-constant-face         ((,class (:foreground ,mejelly-blue-1))))
    `(font-lock-doc-face              ((,class (:foreground ,mejelly-green-0))))
    `(font-lock-function-name-face    ((,class (:foreground ,mejelly-yellow-0))))
@@ -199,8 +200,9 @@
 
    `(web-mode-builtin-face           ((,class (:foreground ,mejelly-blue-0))))
    `(web-mode-html-attr-name-face    ((,class (:foreground ,mejelly-purple-0))))
-   `(web-mode-html-tag-face          ((,class (:foreground ,mejelly-fg))))
+   `(web-mode-html-tag-face          ((,class (:foreground ,mejelly-yellow-0))))
    `(web-mode-symbol-face            ((,class (:foreground ,mejelly-blue-1))))
+
 
    `(trailing-whitespace             ((,class (:background ,mejelly-red-1))))))
 
