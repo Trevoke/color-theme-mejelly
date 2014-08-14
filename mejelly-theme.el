@@ -164,7 +164,7 @@
                                                         :foreground ,mejelly-yellow-0
                                                         :background ,mejelly-bg))))
    `(magit-item-highlight            ((,class (:weight normal
-                                                       :background ,mejelly-bg))))
+                                                       :background ,mejelly-purple-3))))
    `(magit-log-author                ((,class (:foreground ,mejelly-fg))))
    `(magit-log-sha1                  ((,class (:foreground ,mejelly-red-0
                                                            :background ,mejelly-bg))))
